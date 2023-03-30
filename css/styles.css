@@ -9,7 +9,7 @@ html{
 }
 body{
     background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-    background-size: 200% 200%;
+    background-size: 200% 150%;
     margin: 0;
     padding: 0;
 
