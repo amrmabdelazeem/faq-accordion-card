@@ -26,13 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop](screenshots/Desktop.png)
+![Alt Mobile](screenshots/mobile.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github](https://amrmabdelazeem.github.io/faq-accordion-card/)
 
 ## My process
 
