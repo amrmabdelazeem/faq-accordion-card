@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontEnd-Mentor](https://www.frontendmentor.io/solutions/faq-accordion-card-with-flex-and-js-o8ObOA044c)
 - Live Site URL: [Github](https://amrmabdelazeem.github.io/faq-accordion-card/)
 
 ## My process
