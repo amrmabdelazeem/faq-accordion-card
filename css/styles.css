@@ -9,6 +9,7 @@ html{
 }
 body{
     background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-size: 200% 200%;
     margin: 0;
     padding: 0;
 
@@ -29,17 +30,23 @@ h2{
     border-radius: 20px;
     padding-bottom: 1rem;
 }
-.illustration{
+.illustration-mobile{
     width: 70%;
     position: absolute;
     margin-top: 2rem;
     top: .1rem;
     left: 4rem;
 }
-.bg-mobile{
+.illustration-desktop{
+    display: none;
+}
+.bg-shadow-mobile{
     position: relative;
     width: 75%;
     left: 3rem
+}
+.bg-shadow-desktop{
+    display: none;
 }
 .faq-content{
     padding: 0 1.5rem 1.5rem;
@@ -51,6 +58,10 @@ h2{
     border-bottom: 1px solid hsl(240, 5%, 91%);
     margin-bottom: 0;
     padding-bottom: 0;
+    cursor: pointer;
+}
+.question:hover{
+    color: hsl(14, 88%, 65%);
 }
 
 .no-border{
@@ -71,6 +82,8 @@ button{
     background: none;
     border: none;
     padding-bottom: 10px;
+    cursor: pointer;
+
 }
 
 /* .show-answer{
@@ -81,15 +94,75 @@ button{
     transform: rotate(180deg);
     transition: .3s ease-in-out;
     padding-top: 20px;
+    padding: 0;
 }
 .question-bold{
     font-weight: 700;
 }
 
+.box-desktop{
+    display: none;
+}
 
 @media screen and (min-width:800px) {
+    h1{
+        text-align: left;
+        padding-top: 4rem;
+    }
+    .container{
+        width: 64%;
+        margin: 8rem 0 0 17.5rem;
+        padding-bottom: 2rem;
+        
+    }
+    .illustration-mobile{
+        display: none;
+    }
+    .illustration-desktop{
+        display: block;
+        position: absolute;
+        width: 33%;
+        top:12.2rem;
+        left: 12rem;
+        overflow:hidden;
+        margin-left: 5.4rem;
+        object-position: -90px;
+    }
+    .bg-shadow-mobile{
+        display: none;
+    }
+    .bg-shadow-desktop{
+        display: block;
+        position: absolute;
+        width: 40%;
+        top: 12%;
+        left: 8%;
+
+    }
+    .faq-content{
+        margin-left: 49%;
+    }
+    .box-desktop{
+        display: block;
+        position: absolute;
+        left: 13%;
+        top: 48%;
+
+    }
     .question{
-        justify-content:flex-start;
+        padding-top: .3rem;
+        margin-right: 5.2rem;
+    }
+
+    .answer{
+        font-size: 12px;
+        margin-right: 4.5rem;
+    }
+
+    p{
+        margin-top: -1rem;
+        line-height: 1.5;
+        padding-bottom: .2rem;
     }
 
 }
